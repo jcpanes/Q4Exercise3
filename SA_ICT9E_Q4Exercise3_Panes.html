@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Arithmetic Operators</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+	<style type="text/css">
+		
+		body{
+			padding-left: 25px;
+			padding-top: 25px;
+			background-color: lightpink;
+			font-family: 'Chivo Mono', monospace;
+		}
+
+		h1{
+			color: white;
+		}
+
+	</style>
+</head>
+
+<body>
+	<h1>JavaScript Arithetic Operators</h1>
+	<hr>
+	<b><p>If z = 10, y = 5;</p></b>
+	<ol type="1.">
+
+		<li>y + z = <strong id="p1"></strong></li>
+		<li>z - y = <strong id="p2"></strong></li>
+		<li>y * z = <strong id="p3"></strong></li>
+		<li>z / y = <strong id="p4"></strong></li>
+		<li>y % 2 = <strong id="p5"></strong></li>
+
+	</ol>
+
+	<script type="text/javascript">
+		let z=10, y=5
+
+		let sum = y + z;
+		let dif = z - y;
+		let pro = y * z;
+		let quo = z / y;
+		let rem = y % 2;
+
+		alert("The sum of the two numbers is: " + sum + "\n" + "The difference of the two numbers is: " + dif +"\n" + "The product of the two numbers is: " + pro + "\n" + "The quotient of the two numbers is: " + quo + "\n" + "The remainder of the two numbers is: " + rem + "\n");
+
+		//variable declaration;assigment of values
+		document.getElementById("p1").innerHTML = y + z;
+		document.getElementById("p2").innerHTML = z - y;
+		document.getElementById("p3").innerHTML = y * z;
+		document.getElementById("p4").innerHTML = z / y;
+		document.getElementById("p5").innerHTML = y % 2;
+
+
+	</script>
+</body>
+</html>
